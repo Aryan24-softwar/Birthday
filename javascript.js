@@ -257,7 +257,7 @@ function createFloatingHeart(x, y) {
 const beatingHeart = document.querySelector('.heart');
 const secretMessage = document.getElementById('secret-message');
 let clickCount = 0;
-const requiredClicks = 1;
+const requiredClicks = 20;
 let clickTimeout;
 
 beatingHeart.addEventListener('click', () => {
